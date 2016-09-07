@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_events"
+                android:background="@color/textColor"
+                android:minHeight="?attr/actionBarSize"
+                android:paddingTop="@dimen/tool_bar_top_padding"
+                android:transitionName="actionBar"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="83dp"
+            android:id="@+id/listView_events_upcoming"
+            android:layout_gravity="center_horizontal"
+            android:divider="@color/Divider"
+            android:drawSelectorOnTop="false"
+            android:dividerHeight="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

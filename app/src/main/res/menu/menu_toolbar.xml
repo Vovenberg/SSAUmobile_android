@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search_item"
+        android:title="Поиск"
+        android:icon="@drawable/ic_search_24dp"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item android:id="@+id/like_news"
+        android:title="Лайк"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        app:showAsAction="ifRoom|withText"
+        />
+</menu>

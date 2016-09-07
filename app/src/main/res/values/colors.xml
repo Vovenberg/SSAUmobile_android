@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#686868</color>
+    <color name="colorPrimaryDark">#f9f9f9</color>
+    <color name="colorAccent">#4765e9</color>
+    <color name="colorAccentEvents">#fa7b2d</color>
+    <color name="colorAccentMedia">#38ce60</color>
+    <color name="colorToolbar">#4287a4</color>
+    <color name="textColor">#ffffff</color>
+    <color name="Night">#000000</color>
+    <color name="Gray">#8b8888</color>
+    <color name="Links">#1c97c4</color>
+    <color name="Divider">#d9d5d5</color>
+    <color name="Conf">#b6c7f9</color>
+    <color name="Semin">#c2e4c4</color>
+    <color name="Event3">#e2161a</color>
+    <color name="Event3BAck">#f1c6c6</color>
+    <color name="Event4BAck">#ffc688</color>
+    <color name="Event5">#b247ff</color>
+    <color name="Event5BAck">#e4c4fc</color>
+
+
+    <color name="material_drawer_background">#ffffff</color>
+    <color name="material_drawer_selected">#97a9f9</color>
+</resources>
